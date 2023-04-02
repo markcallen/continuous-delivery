@@ -1,6 +1,6 @@
-# oclif-hello-world
+# continuous-delivery
 
-oclif example Hello World CLI
+continuous-delivery example using release-it
 
 [![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)
 [![Version](https://img.shields.io/npm/v/oclif-hello-world.svg)](https://npmjs.org/package/oclif-hello-world)
