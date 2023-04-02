@@ -4,7 +4,8 @@
   },
   "github": {
     "release": false,
-    "autoGenerate": true
+    "autoGenerate": true,
+    "releaseNotes": "git log pretty=%s ${latestTag}..${tagName}"
   },
   "npm": {
     "publish": false
