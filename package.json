@@ -1,6 +1,6 @@
 {
   "name": "continuous-delivery",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "continuous-delivery example of a CLI",
   "author": "Mark C Allen @markcallen",
   "bin": {
