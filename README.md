@@ -41,6 +41,10 @@ then run with `env-cmd`
 npx env-cmd -f .env.secrets yarn release patch --ci --github.release
 ```
 
+## Minor and Major
+
+To do a minor or major release just change patch to be minor or major
+
 # Usage
 
 <!-- usage -->
