@@ -50,7 +50,7 @@ $ npm install -g continuous-delivery
 $ continuous-delivery COMMAND
 running command...
 $ continuous-delivery (--version)
-continuous-delivery/0.0.8 linux-x64 node-v18.14.2
+continuous-delivery/0.0.9 linux-x64 node-v18.14.2
 $ continuous-delivery --help [COMMAND]
 USAGE
   $ continuous-delivery COMMAND
@@ -98,7 +98,7 @@ EXAMPLES
   hello friend from oclif! (./src/commands/hello/index.ts)
 ```
 
-_See code: [dist/commands/hello/index.ts](https://github.com/markcallen/continuous-delivery/blob/v0.0.8/dist/commands/hello/index.ts)_
+_See code: [dist/commands/hello/index.ts](https://github.com/markcallen/continuous-delivery/blob/v0.0.9/dist/commands/hello/index.ts)_
 
 ## `continuous-delivery hello world`
 
