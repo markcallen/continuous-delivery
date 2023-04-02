@@ -33,6 +33,14 @@ yarn release patch --ci --github.release
 To automate the above create a Personal Access Token at https://github.com/settings/tokens
 with repo.
 
+Save this in `.env.secrets` as GITHUB_TOKEN
+
+then run with `env-cmd`
+
+```
+npx env-cmd -f .env.secrets yarn release patch --ci --github.release
+```
+
 # Usage
 
 <!-- usage -->
