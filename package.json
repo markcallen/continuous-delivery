@@ -71,5 +71,14 @@
   "keywords": [
     "oclif"
   ],
-  "types": "dist/index.d.ts"
+  "types": "dist/index.d.ts",
+  "lint-stage": {
+    "*.{js,ts}": [
+      "prettier --write .",
+      "eslint --config .eslintrc --fix ."
+    ],
+    "*.{json,md}": [
+      "prettier --write ."
+    ]
+  }
 }
