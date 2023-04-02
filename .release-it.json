@@ -5,7 +5,7 @@
   "github": {
     "release": false,
     "autoGenerate": true,
-    "releaseNotes": "git log pretty=%s ${latestTag}..${tagName}"
+    "releaseNotes": "git log --pretty=format:\"* %s (%h)\" ${latestTag}..${tagName}"
   },
   "npm": {
     "publish": false
