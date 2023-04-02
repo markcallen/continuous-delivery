@@ -15,6 +15,20 @@ continuous-delivery example using release-it
 - [Commands](#commands)
 <!-- tocstop -->
 
+# Release
+
+To do a release run:
+
+```
+yarn release patch --ci
+```
+
+To create release note run
+
+```
+yarn release patch --ci --github.release
+```
+
 # Usage
 
 <!-- usage -->
