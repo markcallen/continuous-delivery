@@ -1,5 +1,4 @@
-oclif-hello-world
-=================
+# oclif-hello-world
 
 oclif example Hello World CLI
 
@@ -10,11 +9,15 @@ oclif example Hello World CLI
 [![License](https://img.shields.io/npm/l/oclif-hello-world.svg)](https://github.com/oclif/hello-world/blob/main/package.json)
 
 <!-- toc -->
-* [Usage](#usage)
-* [Commands](#commands)
+
+- [Usage](#usage)
+- [Commands](#commands)
 <!-- tocstop -->
+
 # Usage
+
 <!-- usage -->
+
 ```sh-session
 $ npm install -g continuous-delivery
 $ continuous-delivery COMMAND
@@ -26,21 +29,25 @@ USAGE
   $ continuous-delivery COMMAND
 ...
 ```
+
 <!-- usagestop -->
+
 # Commands
+
 <!-- commands -->
-* [`continuous-delivery hello PERSON`](#continuous-delivery-hello-person)
-* [`continuous-delivery hello world`](#continuous-delivery-hello-world)
-* [`continuous-delivery help [COMMANDS]`](#continuous-delivery-help-commands)
-* [`continuous-delivery plugins`](#continuous-delivery-plugins)
-* [`continuous-delivery plugins:install PLUGIN...`](#continuous-delivery-pluginsinstall-plugin)
-* [`continuous-delivery plugins:inspect PLUGIN...`](#continuous-delivery-pluginsinspect-plugin)
-* [`continuous-delivery plugins:install PLUGIN...`](#continuous-delivery-pluginsinstall-plugin-1)
-* [`continuous-delivery plugins:link PLUGIN`](#continuous-delivery-pluginslink-plugin)
-* [`continuous-delivery plugins:uninstall PLUGIN...`](#continuous-delivery-pluginsuninstall-plugin)
-* [`continuous-delivery plugins:uninstall PLUGIN...`](#continuous-delivery-pluginsuninstall-plugin-1)
-* [`continuous-delivery plugins:uninstall PLUGIN...`](#continuous-delivery-pluginsuninstall-plugin-2)
-* [`continuous-delivery plugins update`](#continuous-delivery-plugins-update)
+
+- [`continuous-delivery hello PERSON`](#continuous-delivery-hello-person)
+- [`continuous-delivery hello world`](#continuous-delivery-hello-world)
+- [`continuous-delivery help [COMMANDS]`](#continuous-delivery-help-commands)
+- [`continuous-delivery plugins`](#continuous-delivery-plugins)
+- [`continuous-delivery plugins:install PLUGIN...`](#continuous-delivery-pluginsinstall-plugin)
+- [`continuous-delivery plugins:inspect PLUGIN...`](#continuous-delivery-pluginsinspect-plugin)
+- [`continuous-delivery plugins:install PLUGIN...`](#continuous-delivery-pluginsinstall-plugin-1)
+- [`continuous-delivery plugins:link PLUGIN`](#continuous-delivery-pluginslink-plugin)
+- [`continuous-delivery plugins:uninstall PLUGIN...`](#continuous-delivery-pluginsuninstall-plugin)
+- [`continuous-delivery plugins:uninstall PLUGIN...`](#continuous-delivery-pluginsuninstall-plugin-1)
+- [`continuous-delivery plugins:uninstall PLUGIN...`](#continuous-delivery-pluginsuninstall-plugin-2)
+- [`continuous-delivery plugins update`](#continuous-delivery-plugins-update)
 
 ## `continuous-delivery hello PERSON`
 
@@ -153,7 +160,7 @@ ALIASES
   $ continuous-delivery plugins add
 
 EXAMPLES
-  $ continuous-delivery plugins:install myplugin 
+  $ continuous-delivery plugins:install myplugin
 
   $ continuous-delivery plugins:install https://github.com/someuser/someplugin
 
@@ -216,7 +223,7 @@ ALIASES
   $ continuous-delivery plugins add
 
 EXAMPLES
-  $ continuous-delivery plugins:install myplugin 
+  $ continuous-delivery plugins:install myplugin
 
   $ continuous-delivery plugins:install https://github.com/someuser/someplugin
 
@@ -334,4 +341,5 @@ FLAGS
 DESCRIPTION
   Update installed plugins.
 ```
+
 <!-- commandsstop -->
