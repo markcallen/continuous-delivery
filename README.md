@@ -30,6 +30,9 @@ To create release note run
 yarn release patch --ci --github.release
 ```
 
+To automate the above create a Personal Access Token at https://github.com/settings/tokens
+with repo.
+
 # Usage
 
 <!-- usage -->
