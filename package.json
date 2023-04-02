@@ -77,12 +77,12 @@
     "oclif"
   ],
   "types": "dist/index.d.ts",
-  "lint-stage": {
+  "lint-staged": {
     "*.{js,ts}": [
       "prettier --write .",
       "eslint --config .eslintrc --fix ."
     ],
-    "*.{json,md,yaml}": [
+    "*.{json,md,yml}": [
       "prettier --write ."
     ]
   }
