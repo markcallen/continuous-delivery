@@ -41,6 +41,9 @@ then run with `env-cmd`
 npx env-cmd -f .env.secrets yarn release patch --ci --github.release
 ```
 
+This will use the generate-release-notes.sh script to access the latest release and use that
+to create the release notes.
+
 ## Minor and Major
 
 To do a minor or major release just change patch to be minor or major
