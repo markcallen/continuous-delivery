@@ -4,7 +4,6 @@
   },
   "github": {
     "release": false,
-    "autoGenerate": true,
     "releaseNotes": "./generate-release-notes.sh ${tagName}"
   },
   "npm": {
