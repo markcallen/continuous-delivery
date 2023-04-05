@@ -1,7 +1,7 @@
 #!/bin/bash
 #
 
-REPO=$(git config --get remote.origin.url | grep -o -P '(?<=:).*(?=.git)')
+REPO=$(git config --get remote.origin.url | sed -n -e 's/^.*:\(.*\).git/\1/p')
 
 LAST=$(curl -s -L \
   -H "Accept: application/vnd.github+json" \
