@@ -5,7 +5,7 @@
   "github": {
     "release": false,
     "autoGenerate": true,
-    "releaseNotes": "generate-release-notes.sh ${tagName}"
+    "releaseNotes": "./generate-release-notes.sh ${tagName}"
   },
   "npm": {
     "publish": false
